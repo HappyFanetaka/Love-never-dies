@@ -1,31 +1,38 @@
 .image-container {
-    display: flex; /* フレックスボックスを使用して中央寄せ */
-    justify-content: center; /* 水平方向に中央寄せ */
-    width: 100%; /* 親要素の幅いっぱいに広がる */
-    max-width: 50px; /* 最大幅を設定 */
-    margin: 0 auto; /* 中央寄せ（親要素の幅が設定されている場合に有効） */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%; /* 最大幅を親要素の幅いっぱいにする */
+    margin: 0 auto;
 }
 
-
 .fade-in-image {
-    opacity: 0; /* 初期状態で透明にする */
-    transition: opacity 5.5s ease-in-out; /* ふわっと表示するためのトランジション */
+    opacity: 0;
+    transition: opacity 5.5s ease-in-out;
+    max-width: 100%; /* 画像が親要素に合わせてサイズ調整 */
 }
 
 .fade-in-image.loaded {
-    opacity: 1; /* 読み込み完了時に画像を表示する */
+    opacity: 1;
 }
 
 .message-container {
     margin-bottom: 1px;
-    font-size: 75px;
+    font-size: 5vw; /* ビューポート幅に応じてサイズ調整 */
     color: #e049d9c4;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* 画面の下部に配置 */
-    height: 15vh;
+    align-items: flex-end;
+    height: 15vh; /* ビューポート高さに応じてサイズ調整 */
     background-color: #ffffff;
     font-family: Arial, sans-serif;
+}
+
+#countdown {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1%;
 }
