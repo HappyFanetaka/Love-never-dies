@@ -18,7 +18,7 @@
 
 .message-container {
     margin-bottom: 1px;
-    font-size: 15vw; /* ビューポート幅に応じてサイズ調整 */
+    font-size: 30vw; /* ビューポート幅に応じてサイズ調整 */
     color: #e049d9c4;
     margin: 0;
     padding: 0;
@@ -30,13 +30,13 @@
     left: 50%; /* 画面の中央に配置 */
     transform: translate(-50%, -50%); /* 中央に正確に配置 */
     width: 100%; /* メッセージコンテナの幅を100%にして画面幅いっぱいに */
-    background-color: rgba(255, 255, 255, 0.7); /* メッセージが見やすくなるように半透明の背景を追加 */
+    background-color: rgba(255, 255, 255, 0.6); /* メッセージが見やすくなるように半透明の背景を追加 */
     text-align: center; /* テキストを中央に配置 */
-    z-index: 10; /* 画像の上に表示する */
+    z-index: 5; /* 画像の上に表示する */
 }
 
 #countdown {
-    font-size: 2em;
+    font-size: 0.2em;
     font-weight: bold;
     text-align: center;
     margin-top: 1%;
