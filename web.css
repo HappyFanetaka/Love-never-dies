@@ -1,0 +1,31 @@
+.image-container {
+    display: flex; /* フレックスボックスを使用して中央寄せ */
+    justify-content: center; /* 水平方向に中央寄せ */
+    width: 100%; /* 親要素の幅いっぱいに広がる */
+    max-width: 50px; /* 最大幅を設定 */
+    margin: 0 auto; /* 中央寄せ（親要素の幅が設定されている場合に有効） */
+}
+
+
+.fade-in-image {
+    opacity: 0; /* 初期状態で透明にする */
+    transition: opacity 5.5s ease-in-out; /* ふわっと表示するためのトランジション */
+}
+
+.fade-in-image.loaded {
+    opacity: 1; /* 読み込み完了時に画像を表示する */
+}
+
+.message-container {
+    margin-bottom: 1px;
+    font-size: 75px;
+    color: #e049d9c4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* 画面の下部に配置 */
+    height: 15vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
