@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const fullText = "短い時間でしたがありがとうございました！";
+  const fullText = "これからも頑張って下さい！";
   let index = 0;
   const visibleText = document.getElementById("visible-text");
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       clearInterval(intervalId);
     }
-  }, 350);
+  }, 200);
 
   const hintButton = document.getElementById("hint-button");
   const hintText = document.getElementById("hint-text");
