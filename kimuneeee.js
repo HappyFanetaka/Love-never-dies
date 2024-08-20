@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const fullText = "これからも応援しています";
+  const fullText = "きむねーさんから教わったことを余すことなく胸に刻み今後も活かしていきたいと思います";
   let index = 0;
   const visibleText = document.getElementById("visible-text");
 
