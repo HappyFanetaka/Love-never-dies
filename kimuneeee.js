@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       clearInterval(intervalId);
     }
-  }, 400);
+  }, 800);
 
   const hintButton = document.getElementById("hint-button");
   const hintText = document.getElementById("hint-text");
