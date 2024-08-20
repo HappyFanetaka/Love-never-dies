@@ -3,9 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let index = 0;
   const visibleText = document.getElementById("visible-text");
 
-  // フォントサイズを小さくする
-  visibleText.style.fontSize = "12px"; // 小さなフォントサイズに変更
-
   const intervalId = setInterval(() => {
     if (index < fullText.length) {
       visibleText.textContent += fullText[index];
