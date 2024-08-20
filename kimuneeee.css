@@ -1,0 +1,110 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  text-align: center;
+  padding: 16px;
+}
+
+.image-wrapper {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* 
+.text {
+  margin-top: 16px;
+  font-size: 32px;
+} */
+
+.landolt-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.landolt, .text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .landolt-item, .text-item {
+  margin-bottom: 8px;
+  font-size: 48px;
+} */
+
+.hint-container {
+  margin-top: 32px;
+}
+
+.hint-button {
+  color: #007bff;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hint-text {
+  margin-top: 8px;
+  color: #6c757d;
+  display: none;
+}
+
+
+
+.text {
+  margin-top: 16px;
+  font-size: 32px;
+  color: #ff69b4; /* ピンク色 */
+}
+
+.landolt-item, .text-item {
+  margin-bottom: 8px;
+  font-size: 48px; /* 初期サイズ */
+}
+
+.landolt-item:nth-child(2), .text-item:nth-child(2) {
+  font-size: 40px;
+}
+
+.landolt-item:nth-child(3), .text-item:nth-child(3) {
+  font-size: 32px;
+}
+
+.landolt-item:nth-child(4), .text-item:nth-child(4) {
+  font-size: 24px;
+}
+
+.landolt-item:nth-child(5), .text-item:nth-child(5) {
+  font-size: 16px;
+}
+
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
