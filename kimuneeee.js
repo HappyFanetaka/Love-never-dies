@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const fullText = "きむねーさんから教わったことを余すことなく胸に刻み、\n今後も活かしていきたいと思います!(笑)";
+  const fullText = "これまでお世話になりました！きむねーさんの豊富な知識にはいつも驚かされたくさん学ばせていただきました．私も今後はきむねーさんの分まで頑張りたいと思います（笑）";
   let index = 0;
   const visibleText = document.getElementById("visible-text");
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       clearInterval(intervalId);
     }
-  }, 200);
+  }, 100);
 
   const hintButton = document.getElementById("hint-button");
   const hintText = document.getElementById("hint-text");
